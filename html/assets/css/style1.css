@@ -420,21 +420,23 @@ body {
 	}
 }
 
+/* 마우스 스크롤 애니메이션 */
 .scroll-btn {
 	display: block;
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 80px;
-	text-align: center;
+	bottom: -15px;
+	width:auto;
 }
 
 .scroll-btn .mouse {
 	position: relative;
 	display: block;
+	left:90px;
 	width: 35px;
 	height: 55px;
-	margin: 0 auto 20px;
+	margin: 10px auto 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -2342,9 +2344,44 @@ body {
 	margin-top: -20px;
 }
 
+#section0-1 .sub-work { 
+	font-family: 'noto sans kr', serif;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 60px;
+	color:#fff;
+}
+
+#section0-1 .about-title { 
+	font-family: 'noto sans kr', serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 40px;
+	color:#111111   ;
+}
+
+#section0-1 .about-me h2 { 
+	font-family: 'noto sans kr', serif;
+	margin: 30px auto 10px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	color:#fff;
+}
+
+
+#section0-1 .about-me p { 
+	font-family: 'noto sans kr', serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 20px;
+	color:#fff;
+}
+
 #section1-1 {
 	position: relative;
-	background: #2E2D51;
+	background: #5587A2;
 	height: 100vh;
 }
 
@@ -2353,7 +2390,7 @@ body {
 	top: 10%;
 	right: 0;
 	left: 0;
-	font-family: 'Playfair Display', serif;
+	font-family: 'noto sans kr', serif;
 	font-weight: 400;
 	font-size: 40px;
 	text-align: center;
@@ -2390,7 +2427,7 @@ body {
 	top: 10%;
 	right: 0;
 	left: 0;
-	font-family: 'Playfair Display', serif;
+	font-family: 'noto sans kr', serif;
 	font-weight: 400;
 	font-size: 40px;
 	text-align: center;
@@ -2553,6 +2590,8 @@ body {
 		transform: none;
 	}
 }
+
+
 
 
 /*sub3*/
