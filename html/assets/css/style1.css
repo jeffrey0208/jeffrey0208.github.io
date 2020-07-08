@@ -2643,14 +2643,15 @@ body {
 
 }
 
-#section0-2 .left-menu ul .menu-sub {  /*시도중 */
+.nav2 .menu-sub3 {  
 	font-family: 'Noto Sans KR', sans-serif;
-	font-weight: 500;
-	font-size: 14px;
+	font-weight: 400;
+	font-size: 24px;
 	line-height: 30px;
-	margin-top: -20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 	font-style: normal;
-	color: #111111;
+	color: #ffffff;
 
 }
 
