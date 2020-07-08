@@ -73,7 +73,7 @@ body {
 }
 
 .tit1 h3 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 34px;
 	font-weight: 400;
 	line-height: 40px;
@@ -100,7 +100,7 @@ body {
 }
 
 .tit2 h3 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 26px;
 	font-weight: 400;
 	line-height: 30px;
@@ -123,7 +123,7 @@ body {
 }
 
 .tit3 h3 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 26px;
 	font-weight: 400;
 	line-height: 30px;
@@ -138,6 +138,14 @@ body {
 	left: 0;
 	width: 100%;
 }
+
+.nav-logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+}
+
 .nav img {
 	position:absolute;
 	top:2em;
@@ -199,9 +207,9 @@ body {
 #menu2 .menupage .left-menu {position:absolute; left:-50%; top:0;  width:50%; height:100vh; background-color:#403D66; transition: all 0.3s ease-in-out; text-align: center; padding-top:15%;}
 #menu2 .menupage .right-menu {position:absolute; right:-50%; top:0; width:50%; height:100vh; background-color:#525177; transition: all 0.3s ease-in-out; text-align: center; padding-top:15%;}
 #menu2 .menupage .menu-tit {font-family: 'Noto Sans KR', sans-serif; font-size: 12px; font-weight: 700; color:#fff; letter-spacing:3px; color:#F97070; line-height:30px;}
-#menu2 .menupage .menu-sub a {font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 400; color:#fff;}
+#menu2 .menupage .menu-sub a {font-family: 'Noto Sans KR', serif; font-size: 30px; font-weight: 400; color:#fff;}
 #menu2 .menupage .menu-sub a:hover {color:#302F51;}
-#menu2 .menupage .menu-sub1 a {font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 400; color:#fff;}
+#menu2 .menupage .menu-sub1 a {font-family: 'Noto Sans KR', serif; font-size: 20px; font-weight: 400; color:#fff;}
 #menu2.on {opacity:1; z-index: 79999;}
 #menu2 .menupage .menu-sub1 a:hover {color:#302F51;}
 #menu2.on .menupage .left-menu {left:0; transition: all 0.3s ease-in-out;}
@@ -213,7 +221,7 @@ body {
 .left-menu ul{
 	display:none;
 	position:absolute; left:45%; top:40%; transform: translate3d(-50%,-50%,0);
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Sans KR', serif;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 50px;
@@ -370,7 +378,7 @@ body {
 	
 }
 
-.contents {}
+
 
 
 .section {width:100%; overflow:hidden;}
@@ -2485,8 +2493,7 @@ body {
 }
 
 .row ul {
-	margin: 0 30px 0 30px;
-	!important;
+	margin: 0 30px 0 30px !important;
 	text-align: left !important;
 	padding: 0;
 }
@@ -2598,7 +2605,7 @@ body {
 
 #section0-2 {
 	position: relative;
-	background: #2E3C68;
+	background: #D1AF94   ; /* 배경컬러 */
 	height: 100vh;
 }
 
@@ -2624,6 +2631,29 @@ body {
 	margin-top: -20px;
 }
 
+
+#section0-2 .e-mail {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500; 
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: -20px;
+	font-style: normal;
+	color: #fff;
+
+}
+
+#section0-2 .left-menu ul .menu-sub {  /*시도중 */
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: -20px;
+	font-style: normal;
+	color: #111111;
+
+}
+
 #section0-2 .pdf {
 	padding: 0 20px;
 	border: 3px solid #fff;
@@ -2634,7 +2664,7 @@ body {
 	font-size: 15px;
 	line-height: 40px;
 	margin: 0 auto;
-	margin-top: -50px;
+	margin-top: -20px;
 	color:#fff;
 }
 #section0-2 .pdf a{
