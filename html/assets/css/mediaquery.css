@@ -262,7 +262,7 @@
 	
 	
 @media (max-width:480px){
-	.tit1 {text-align:center; position:absolute;  right:0; left:0; bottom:18%; }
+  .tit1 {text-align:center; position:absolute;  right:0; left:0; bottom:18%; }
   .tit1 h2 {font-size:18px;line-height:44px;  }
   .tit1 h3 { font-size:14px; line-height:18px; }
   .tit2 {text-align:center; position:absolute;  right:0; left:0; bottom:16%;}
@@ -271,12 +271,14 @@
   .tit3 {text-align:center; position:absolute;  right:0; left:0; bottom:18%;}
   .tit2 h2 {font-size:18px;line-height:44px;}
   .tit3 h3 { font-size:14px; line-height:18px;}
-	.nav {position:absolute;}
+    .nav {position:absolute;}
 	.nav img {width:50px; position:absolute; top: 1em; left: 1em;}
 	button {
-		top:88%;
+	top:88%;
     left:50%;
 	}
+	
+
 	/*sub1*/
 	.right {position:relative;}
 	.right .right-head {display:none;}
@@ -303,11 +305,6 @@
 		margin-top:-15px;
 		border:2px solid #fff;
 }
-
-	
-	
-	
-
 	
 	
 }
