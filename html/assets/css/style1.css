@@ -2609,9 +2609,17 @@ body {
 
 /*sub3*/
 
+#section0-2 .sub-main .contact-title { 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	color:#ffffff   ;
+}
+
 #section0-2 {
 	position: relative;
-	background: #57a08e   ; /* 배경컬러 */
+	background: #3762a1   ; /* 배경컬러 */
 	height: 100vh;
 }
 

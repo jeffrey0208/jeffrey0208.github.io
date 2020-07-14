@@ -318,11 +318,11 @@ html {
 }
 
 .Skill_Title {
-    
-    padding-top:20px;
-    padding-bottom:20px;
-	font-size: 40px;
-	font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top:30px;
+    padding-bottom:10px;
+	font-size: 36px;
+	font-weight: 600;
 	line-height: 40px;
 	color:#111111   ;
 
