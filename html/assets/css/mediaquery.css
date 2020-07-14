@@ -17,13 +17,13 @@
 }
 
 @media (max-width:1280px){
-  .tit1 {}
+ 
   .tit1 h2 {font-size:20px; }
   .tit1 h3 { font-size:25px; line-height:30px; }
-  .tit2 {}
+  
   .tit2 h2 {font-size:14px; }
   .tit2 h3 {font-size:20px; line-height:30px; }
-  .tit3 {}
+  
   .tit2 h2 {font-size:14px;}
   .tit3 h3 {font-size:20px; line-height:30px; }
 	.nav img {width:50px;}
@@ -94,7 +94,7 @@
 		color:#fff;
 	}
 
-	.nav {}
+	
   .port { width:100%;}
  
 	
@@ -141,9 +141,7 @@
 		display:none;
 		
 	}
-	.right-container .right-title .view {
-		
-	}
+	
 	.right-container .right-title {text-align:center; width:100%;}
 	.right-container .right-title h4 {
 		font-family: 'Open Sans', sans-serif;
