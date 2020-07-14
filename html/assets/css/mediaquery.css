@@ -17,7 +17,7 @@
 }
 
 @media (max-width:1280px){
-	.tit1 {}
+  .tit1 {}
   .tit1 h2 {font-size:20px; }
   .tit1 h3 { font-size:25px; line-height:30px; }
   .tit2 {}
@@ -62,6 +62,38 @@
 }
  
 @media (max-width:768px){
+
+	.nav2 .menu-sub3 {  
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 30px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-style: normal;
+		color: #ffffff;
+	
+	}
+	.menu-sub {margin-top: 10px; 	margin-bottom: 15px;}
+	#menu2 .menupage .menu-sub a { font-size: 15px; font-weight: 400; color:#fff;}
+	.menu-sub2 {margin-top: 10px; 	margin-bottom: 15px;}
+	#menu2 .menupage .menu-sub2 a { font-size: 15px; font-weight: 400; color:#fff;}
+
+
+	.pdf {
+		padding: 0 20px;
+		border: 3px solid #fff;
+		border-radius: 30px;
+		width: 150px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 40px;
+		margin: 0 auto;
+		margin-top: 20px;
+		color:#fff;
+	}
+
 	.nav {}
   .port { width:100%;}
  
@@ -278,6 +310,7 @@
     left:50%;
 	}
 	
+
 
 	/*sub1*/
 	.right {position:relative;}
