@@ -35,7 +35,7 @@ body {
 	width: 70%;
 	height: 100vh;
 	float: left;
-	background-color: #B4DBD2;
+	background-color: #9ddacb;
 }
 
 .about {
@@ -385,7 +385,7 @@ body {
 .section {width:100%; overflow:hidden;}
 #section0 {
 	height: 100vh;
-	background-color: #B4DBD2;
+	background-color: #9ddacb;
 }
 
 #section0 .sub-main {
@@ -2608,7 +2608,7 @@ body {
 
 #section0-2 {
 	position: relative;
-	background: #D1AF94   ; /* 배경컬러 */
+	background: #57a08e   ; /* 배경컬러 */
 	height: 100vh;
 }
 
@@ -2658,7 +2658,7 @@ body {
 
 }
 
-#section0-2 .pdf {
+.pdf {
 	padding: 0 20px;
 	border: 3px solid #fff;
 	border-radius: 50px;
@@ -2668,10 +2668,10 @@ body {
 	font-size: 15px;
 	line-height: 40px;
 	margin: 0 auto;
-	margin-top: -20px;
+	margin-top: 20px;
 	color:#fff;
 }
-#section0-2 .pdf a{
+.pdf a{
 	color:#fff;
 }
 .mdiv { 
