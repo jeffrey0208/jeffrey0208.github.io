@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 
 /*font-family: 'Noto Sans KR', sans-serif;*/
 
@@ -2371,6 +2371,7 @@ body {
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 40px;
+	
 	color:#111111   ;
 }
 
@@ -2380,6 +2381,7 @@ body {
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 40px;
+	
 	color:rgb(10, 72, 122);
 }
 
@@ -2390,6 +2392,8 @@ body {
 	font-weight: 600;
 	text-align: center;
 	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color:rgb(0, 0, 0);
 }
 
