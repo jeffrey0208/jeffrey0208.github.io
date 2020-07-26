@@ -207,9 +207,10 @@ body {
 #menu2 {position: fixed; left:0; top:0; z-index: -1; width:100%; height:100vh;  opacity:0; }
 #menu2 .menupage {overflow:hidden; }
 #menu2 .menupage .left-menu {position:absolute; left:-50%; top:0;  width:50%; height:100vh; background-color:#403D66; transition: all 0.3s ease-in-out; text-align: center; padding-top:15%;}
-#menu2 .menupage .right-menu {position:absolute; right:-50%; top:0; width:70%; height:100vh; background-color:#525177; transition: all 0.3s ease-in-out; text-align: center; padding-top:15%;}
-#menu2 .menupage .menu-tit {font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 700; color:#fff; letter-spacing:3px; color:#F97070; line-height:30px;}
-#menu2 .menupage .menu-tit2 {font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 700; color:#fff; letter-spacing:3px; color:#65ec6c; line-height:30px;}
+#menu2 .menupage .right-menu {position:absolute; right:-50%; top:0; width:70%; max-width:400px; height:100vh; background-color:#525177; transition: all 0.3s ease-in-out; text-align: center; padding-top:15%;}
+#menu2 .menupage .menu-tit {font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 700; color:#fff; letter-spacing:3px; color:#F97070; line-height:30px;}
+#menu2 .menupage .menu-tit2 {font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 700; color:#fff; letter-spacing:3px; color:#65ec6c; line-height:30px;}
+#menu2 .menupage .menu-tit3 {font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 500; color:#fff; letter-spacing:3px; color:#65dcec; line-height:20px;}
 #menu2 .menupage .menu-sub a { font-size: 30px; font-weight: 400; color:#fff;}
 #menu2 .menupage .menu-sub a:hover {color:#302F51;}
 #menu2 .menupage .menu-sub1 a { font-size: 20px; font-weight: 400; color:#fff;}
