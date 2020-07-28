@@ -345,7 +345,8 @@
 						.st99{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 						.st100{fill:#D86F6F;}
 					</style>
-					<a href="html/sub2.html"><g class="svg1">
+					<!-- <a href="html/sub2.html"><g class="svg1"> -->
+					<a href="javascript:sidebarOpen();"><g class="svg1"></g>
 						<g>
 							<g class="main-p">
 								<g class="st0">
@@ -5583,6 +5584,10 @@
 	
 	
 <script>
+
+function sidebarOpen() {
+  $("#toggle").trigger("click");
+}
 	
 $("#toggle").click(function() {
 	$(this).toggleClass("on");
