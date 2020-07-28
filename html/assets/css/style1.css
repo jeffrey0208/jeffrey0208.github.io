@@ -2655,9 +2655,18 @@ body {
 #section0-2 .e-mail {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500; 
-	font-size: 24px;
-	line-height: 30px;
-	margin-top: -20px;
+	font-size: 19px;
+	line-height: 50px;
+	font-style: normal;
+	color: #fff;
+
+}
+
+#section0-2 .phone-number {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500; 
+	font-size: 19px;
+	line-height: 50px;
 	font-style: normal;
 	color: #fff;
 
